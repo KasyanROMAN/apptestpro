@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static "style/style.css" %}">
+</head>
+<body>
+    <h1 class="ABC">{{name}}</h1>
+    <h1>{{age}}</h1>
+    <h1>{{hobby}}</h1>
+    <a href="{%url 'test1'%}">let's go</a>
+    <a href="{%url 'ppp'%}">sweet sasha</a>
+    <a href="{%url 'hello'%}">open me</a>
+    <img src="{%static 'images/OIP.jpeg'%}" alt="">
+</body>
+</html>
